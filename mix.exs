@@ -37,7 +37,7 @@ defmodule LoggerSlackBackend.MixProject do
       {:httpoison, "~> 1.2"},
       {:credo, "~> 0.9.2", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 0.5.0", only: [:dev, :test], runtime: false},
-      {:ex_doc, "~> 0.18.3", only: :dev}
+      {:ex_doc, "~> 0.19.0", only: :dev}
     ]
   end
 end
